@@ -5,6 +5,8 @@ function pin(){
         s=s+(Math.pow(-1,i)/(Math.pow(2*i+1,3)))
 
     }
-    var Espi = Math.pow((32*s),1/3)
-    document.getElementById("respi").innerHTML=+Espi
+    var pi = Math.pow(Math.PI,3)/32;
+    var s1= s.toFixed(3)
+    var pi1 =pi.toFixed(3)
+    document.getElementById("respi").innerHTML=+s1+" es igual a "+pi1+""
 }
